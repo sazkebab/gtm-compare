@@ -1,14 +1,24 @@
 {
-  "name": "gtm-compare",
+  "name": "gtmnotifications",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "googleapis": "^24.0.0",
+    "slack-node": "^0.1.8"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sazkebab/gtm-compare.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "googleapis": "^24.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/sazkebab/gtm-compare/issues"
+  },
+  "homepage": "https://github.com/sazkebab/gtm-compare#readme"
 }

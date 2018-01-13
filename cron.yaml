@@ -1,0 +1,8 @@
+cron:
+ - description: gtm update notifications
+   url: /publish/gtmnotifications
+   schedule: every 15 mins
+ - description: harvetbot update timesheets
+   url: /publish/harvestBot
+   schedule: every mon, wed, tue, thu, fri 16:45
+   timezone: Australia/NSW
